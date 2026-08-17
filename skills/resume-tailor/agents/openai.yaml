@@ -1,0 +1,4 @@
+interface:
+  display_name: "Resume Tailor"
+  short_description: "基于真实证据优化简历表达、岗位匹配与 ATS 覆盖"
+  default_prompt: "使用 $resume-tailor 按目标岗位优化我的简历。"

@@ -1,0 +1,43 @@
+name: 改进建议
+description: 提议一个有明确场景和验收方式的改进
+title: "[Idea] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        具体的使用问题比宽泛的功能清单更容易推进。请使用合成或已脱敏的案例。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 要解决的问题
+      description: 谁在什么场景下遇到了什么困难？
+    validations:
+      required: true
+  - type: textarea
+    id: current-workaround
+    attributes:
+      label: 当前做法
+      description: 现在如何处理，主要成本或风险是什么？
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方向
+      description: 说明期望的输入、输出和职责边界，不必先写完整方案。
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 如何验证有用
+      description: 给出一个可观察的成功标准或边界案例。
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已确认本 Issue 不包含真实个人信息、公司机密或访问凭据。
+          required: true

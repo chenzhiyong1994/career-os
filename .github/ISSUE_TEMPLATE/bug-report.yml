@@ -1,0 +1,53 @@
+name: Bug 报告
+description: 报告可复现的 Skill、脚本、模板或文档问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。请只使用合成或已充分脱敏的数据。不要粘贴真实简历、联系方式、头像、二维码、私有 JD 链接、公司内部材料或凭据；敏感信息泄露请改用 Private vulnerability reporting。
+  - type: dropdown
+    id: area
+    attributes:
+      label: 影响范围
+      options:
+        - jd-analysis
+        - resume-tailor
+        - html-resume-builder
+        - portfolio-curator
+        - examples / docs
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 说明实际行为、预期行为和影响。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 最小复现
+      description: 请使用合成数据，提供最短的提示词、命令或文件结构。
+      placeholder: |
+        1. 使用 `$skill-name ...`
+        2. 输入 synthetic 示例……
+        3. 观察到……
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      description: Codex 入口、操作系统、Python/浏览器版本（如相关）。
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已确认本 Issue 不包含真实个人信息、公司机密或访问凭据。
+          required: true

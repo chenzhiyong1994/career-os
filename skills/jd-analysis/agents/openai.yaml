@@ -1,0 +1,4 @@
+interface:
+  display_name: "JD Analysis"
+  short_description: "拆解岗位描述，提炼招聘信号、证据需求与风险缺口"
+  default_prompt: "使用 $jd-analysis 分析这段 JD，并生成一份岗位评分卡。"

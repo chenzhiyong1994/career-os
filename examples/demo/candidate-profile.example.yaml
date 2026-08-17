@@ -1,0 +1,65 @@
+synthetic: true
+schema_status: illustrative
+
+candidate:
+  display_name: "示例候选人"
+  target_roles:
+    - "AI 产品经理"
+    - "数据产品经理"
+  location_preference:
+    - "上海"
+    - "远程"
+  constraints:
+    - "不接受需要长期高频出差的岗位"
+
+facts:
+  experience:
+    - id: "exp-search-assistant"
+      organization: "Northstar Lab（虚构组织）"
+      role: "产品经理"
+      period: "2024-03 / 2025-02"
+      scope:
+        - "负责内部知识检索助手的需求分析、原型与效果评测"
+        - "与算法、设计和研发共同维护问题样本与反馈闭环"
+      outcomes:
+        - statement: "沉淀 120 条合成评测样本"
+          evidence_id: "proof-eval-sheet"
+        - statement: "推动引用定位与无答案兜底进入正式版本"
+          evidence_id: "proof-release-note"
+      unverified_claims:
+        - "最终节省的人工检索时长尚无可靠数据"
+
+  projects:
+    - id: "project-career-notes"
+      name: "公开职业笔记整理器（虚构项目）"
+      role: "独立设计与实现"
+      purpose: "把零散项目记录整理为可检索的作品证据"
+      artifacts:
+        - "交互原型"
+        - "字段说明"
+        - "公开演示"
+
+skills:
+  direct_evidence:
+    - "需求分析"
+    - "原型设计"
+    - "模型效果评测"
+    - "跨职能协作"
+  adjacent_evidence:
+    - "SQL 指标查询"
+    - "Prompt 迭代"
+  missing_or_unverified:
+    - "商业化定价"
+    - "大规模增长实验"
+
+proof:
+  - id: "proof-eval-sheet"
+    type: "sanitized-artifact"
+    label: "合成评测表结构"
+    url: "https://example.com/evaluation-sheet"
+    public: true
+  - id: "proof-release-note"
+    type: "sanitized-artifact"
+    label: "虚构版本说明"
+    url: "https://example.com/release-note"
+    public: true

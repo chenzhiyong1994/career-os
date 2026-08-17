@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portfolio Curator"
+  short_description: "整理个人主页、作品集、公开内容渠道与职业证据资产"
+  default_prompt: "使用 $portfolio-curator 整理我的个人主页、公开作品和作品集归档。"

@@ -1,0 +1,61 @@
+synthetic: true
+schema_status: illustrative
+
+role:
+  title: "AI 产品经理"
+  company: "Lighthouse Systems（虚构组织）"
+  level_signal: "中级；需要独立负责一个明确产品域"
+  source: "合成 JD"
+
+requirements:
+  explicit:
+    - id: "req-ai-product"
+      statement: "有 AI 应用或智能检索类产品经验"
+      priority: "high"
+    - id: "req-evaluation"
+      statement: "能设计模型效果评测与 Badcase 分析流程"
+      priority: "high"
+    - id: "req-cross-functional"
+      statement: "能与算法、设计和研发协作推进交付"
+      priority: "high"
+    - id: "req-data"
+      statement: "具备基础数据分析能力"
+      priority: "medium"
+
+signals:
+  inferred:
+    - statement: "岗位更看重落地闭环，而不是单纯概念研究"
+      confidence: "medium"
+      evidence: "职责多次提到上线、反馈与迭代"
+    - statement: "可能需要同时处理产品体验与模型质量"
+      confidence: "medium"
+      evidence: "JD 同时出现原型设计与效果评测"
+
+keywords:
+  direct:
+    - "智能检索"
+    - "模型评测"
+    - "Badcase"
+    - "跨职能协作"
+  synonyms:
+    - source: "效果评估"
+      safe_resume_expression: "模型效果评测"
+
+evidence_mapping:
+  - requirement_id: "req-ai-product"
+    profile_evidence: "exp-search-assistant"
+    strength: "direct"
+  - requirement_id: "req-evaluation"
+    profile_evidence: "proof-eval-sheet"
+    strength: "direct"
+  - requirement_id: "req-data"
+    profile_evidence: "SQL 指标查询"
+    strength: "adjacent"
+
+risks:
+  - "缺少大规模线上实验或商业化结果的可靠证据"
+  - "JD 未说明团队规模、数据权限和模型自研程度"
+
+questions_to_confirm:
+  - "该岗位是否需要直接定义离线评测集与通过阈值？"
+  - "上线后的核心成功指标由产品还是算法团队负责？"

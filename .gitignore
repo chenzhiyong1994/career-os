@@ -1,0 +1,36 @@
+# 私人求职材料与本地工作区
+private/
+docs/private/
+docs/resume_pages/
+docs/resume_updated/
+docs/youzy-gaokao-platform-notes.md
+resume-workspace/
+
+# 本地演示、导出与中间产物
+.frontend-slides/
+output/
+tmp/
+*.qa.json
+
+# 密钥与本地配置
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# 编辑器与系统文件
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log

@@ -1,0 +1,4 @@
+interface:
+  display_name: "HTML Resume Builder"
+  short_description: "把已确认的简历内容渲染成一页 A4 HTML/PDF，并做导出与视觉 QA"
+  default_prompt: "使用 $html-resume-builder 把这版简历做成一页 A4 HTML/PDF 并完成 QA。"

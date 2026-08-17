@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 敏感信息与安全问题
+    url: https://github.com/chenzhiyong1994/career-os/security/advisories/new
+    about: 不要公开粘贴敏感内容，请使用 Private vulnerability reporting。
