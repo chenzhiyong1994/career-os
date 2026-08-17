@@ -42,8 +42,8 @@ Adjust top coordinates only after content is stable.
 - Third-level item to its body: tight but readable.
 - Third-level item to next third-level item in the same company: compact and consistent.
 - Different companies/projects: slightly larger than internal item gaps, but not so large that the page loses density.
-- Core abilities: title and body must not overlap; QR can sit to the right or lower-right, but body text must keep a safe margin.
-- Hard density rule: in final QA, the main content bottom whitespace must be no more than 15% of page height. A QR code or footer placed low on the page must not be used to hide an empty main content area.
+- Core abilities: title and body must not overlap, and body text must keep a safe page margin.
+- Hard density rule: in final QA, the main content bottom whitespace must be no more than 15% of page height. Footer elements placed low on the page must not be used to hide an empty main content area.
 - If a finished screenshot has large empty areas, tune body font size, line-height, and vertical spacing before adding weak content. The page should feel full, credible, and calm.
 - Do not introduce arbitrary character tracking. Preserve `letter-spacing` only when it is an explicit part of the template being matched.
 
@@ -57,6 +57,5 @@ Adjust top coordinates only after content is stable.
 ## Asset Rules
 
 - Use real candidate headshot in color.
-- Use QR codes with sufficient white quiet zone and enough size to scan.
 - Decorative non-headshot images may be grayscale if the template visual style is subdued.
 - If the resume is a demo/template, use fake names, fake contact details, and non-scannable placeholder assets.

@@ -475,7 +475,7 @@ def main() -> int:
         "--main-content-right-ratio",
         type=float,
         default=0.86,
-        help="Right boundary ratio for main content whitespace measurement; excludes far-right QR/footer by default.",
+        help="Right boundary ratio for main content whitespace measurement; excludes far-right footer elements by default.",
     )
     args = parser.parse_args()
 

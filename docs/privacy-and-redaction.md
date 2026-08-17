@@ -66,5 +66,5 @@ git rev-list --objects --all
 
 - `examples/` 只接受合成数据，并标注 `synthetic: true`；
 - 真实简历、渲染页、头像和项目工作笔记放在被忽略的本地目录，不进入版本控制；
-- `html-resume-builder` 自带的姓名、联系方式、头像和二维码都是模板占位符，严格 QA 会拒绝已知占位内容；
+- `html-resume-builder` 自带的姓名、联系方式和头像都是模板占位符，严格 QA 会拒绝已知占位内容；
 - 发现已公开的敏感信息时，不在公开 Issue 中复述，按 [`SECURITY.md`](../SECURITY.md) 私下报告。
