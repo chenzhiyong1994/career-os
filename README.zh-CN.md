@@ -144,7 +144,7 @@ python skills/html-resume-builder/scripts/export_and_qa.py \
   --strict-final
 ```
 
-严格导出需要 Python、Chrome/Chromium/Edge，以及可用的 PDF 检查能力（例如 Poppler 或脚本支持的 Python PDF 库）。模板中的头像、二维码、姓名、联系方式和经历都是占位内容，正式导出前必须替换；严格 QA 会拒绝已知占位符和示例图片。
+严格导出需要 Python、Chrome/Chromium/Edge，以及可用的 PDF 检查能力（例如 Poppler 或脚本支持的 Python PDF 库）。模板中的头像、姓名、联系方式和经历都是占位内容，正式导出前必须替换；严格 QA 会拒绝已知占位符和示例图片。
 
 ## 项目结构
 

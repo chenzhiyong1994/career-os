@@ -32,7 +32,6 @@ Use this reference when editing `assets/templates/basic-a4/resume.html` or a res
 - `.muted`: parentheses, supporting labels, or low-emphasis explanations.
 - `.sep`: vertical separators. Keep light so they do not compete with text.
 - `.site-link`: blue and underlined when the URL should appear clickable.
-- `.footer-img` and `.footer-note`: QR or portfolio marker. Align image and caption as a single unit.
 
 ## Spacing Rules
 
